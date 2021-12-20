@@ -33,7 +33,7 @@ const promptUser = () => {
           default: true
         },{
           type: 'input',
-          name: 'about',
+          name: 'About',
           message: 'Provide some information about your favorite team:',
           when: ({ confirmAbout }) => confirmAbout
         },{
@@ -57,12 +57,12 @@ const promptUser = () => {
         },{
             type:"input",
             name: "Questions",
-            message: "Enter your github username.",
+            message: "Enter your favorite teams link.",
         },
         {
             type: 'input',
             name: 'LinkedIn',
-            message: 'Enter your LinkedIn URL.',
+            message: 'Enter your github username.',
         },
         {
             type: 'input',
@@ -71,13 +71,13 @@ const promptUser = () => {
         }
     ]).then(answers => {
         writeToFile(answers)
-        console.log('Successfully wrote to README.md!')
+        console.log('Successfully wrote to sportsREADME.md!')
     }).catch((err) => console.error(err));
 
 };
 
 const writeToFile = answers => {
-    writeFileAsync('README.md', generateRead(answers))
+    writeFileAsync('sportsREADME.md', generateRead(answers))
 }
 
 promptUser();

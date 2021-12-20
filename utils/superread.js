@@ -7,11 +7,11 @@ function generateRead(answers) {
   ${answers.team}
 
   ## About The Team
-  ${answers.about}
+  ${answers.About}
   
   ## Table of Contents
-  1. 
-  2. 
+  1. [Favorite Team](#pick)
+  2. [About](#About) 
   3. [License](#License)
   4. [Contributing](#Contributing)
   5. [Tests](#Tests)
