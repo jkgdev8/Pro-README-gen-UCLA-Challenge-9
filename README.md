@@ -2,14 +2,14 @@
   ## Favorite Sport!
   NBA: National Basketball Association
   ## Favorite Team!
-  Lakers
+  LAkers
 
   ## About The Team
-  undefined
+  THeyre the best team in the NBA theyre tied for the most titles of any franchise
   
   ## Table of Contents
   1. [Favorite Team](#pick)
-  2. [About](#About) 
+  2. [About] (#About)
   3. [License](#License)
   4. [Contributing](#Contributing)
   5. [Tests](#Tests)
@@ -19,11 +19,11 @@
   ## License
   MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Contributing
-  they pull up and code with me if they want to
+  They can write what they want
   ## Tests
-  testing testing testing
+  how to run a test
   ## Questions
-  Lakers.com
-  github.com/jkgdev8
-  jkgdev8@gmail.com
+  jkgdev8
+  jkgdev8 2
+  jkgdev8 3
   
